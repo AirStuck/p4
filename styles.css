@@ -246,6 +246,64 @@ table#t01 th {
     color: white;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkred;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.column1{
+  border: solid darkgrey;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+width: 10%;
+text-align: center;
+margin-left: 45%;
+margin-top:5%;
+}
+.column2{
+width: 90%;
+float: left;
+margin: 1%}
+}
+.column3{
+width: 90%;
+float: left;
+margin: 1%}
+.column3 {margin-right: 0%}
+
+#feature, .article {
+	margin-bottom: 1em;
+	background-color:Grey;
+	border-radius: 5px 5px 5px 5;}
+
 footer {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
