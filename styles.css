@@ -330,6 +330,28 @@ margin-top: 50px;
 	background-color:#f96e5b;
 	border-radius: 5px 5px 5px 5;}
 
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f96e5b;
+  }
+
+  .image{
+float:left;
+margin-left: 50px;
+margin-top: 50px;
+  }
+
 footer {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
