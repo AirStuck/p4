@@ -222,6 +222,7 @@ img {vertical-align: middle;}
   }
 }
 
+
 table {
     margin-top: 25px;
 
@@ -293,24 +294,35 @@ margin-top:5%;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: ;
   font-size: 14px;
 width: 40%;
 float: left;
 margin-left: 170px;
 margin-top: 50px;
 }
-.column3{
+
+.column4{
   border: solid #FC442C;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: ;
   font-size: 14px;
 width: 40%;
-float: right;
-margin-right: 190px;
+float: left;
+margin-left: 15px;
 margin-top: 50px;
+}
+
+.column3{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+
 }
 
 #feature, .article {
