@@ -18,3 +18,8 @@ alert (doen)
 function goBack() {
     window.history.back();
 }
+
+function rekentool(maandprijs, hoeveelMaand){
+	var prijs = maandprijs * hoeveelMaand;
+	alert("De kosten zijn: € " + prijs + " bij " + hoeveelMaand + " maanden" )
+}
